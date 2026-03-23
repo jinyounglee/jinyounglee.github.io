@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — SortBliss</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif;
+      background: #FFF8F0;
+      color: #2D2D2D;
+      line-height: 1.7;
+      padding: 0 16px;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 60px 0 80px;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 48px;
+    }
+    .logo-bar {
+      width: 8px;
+      height: 36px;
+      background: #FF6B6B;
+      border-radius: 4px;
+    }
+    .logo-name {
+      font-size: 24px;
+      font-weight: 800;
+      color: #2D2D2D;
+      letter-spacing: -0.5px;
+    }
+    h1 {
+      font-size: 32px;
+      font-weight: 800;
+      color: #2D2D2D;
+      letter-spacing: -1px;
+      margin-bottom: 8px;
+    }
+    .meta {
+      font-size: 14px;
+      color: #8B6F5A;
+      margin-bottom: 40px;
+    }
+    .lang-switcher {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+    }
+    .lang-btn {
+      padding: 6px 16px;
+      border: 1.5px solid #FF6B6B;
+      border-radius: 20px;
+      background: transparent;
+      color: #FF6B6B;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s;
+      text-decoration: none;
+    }
+    .lang-btn.active, .lang-btn:hover {
+      background: #FF6B6B;
+      color: #fff;
+    }
+    .section {
+      margin-bottom: 36px;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #2D2D2D;
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #FF6B6B22;
+    }
+    p { margin-bottom: 12px; }
+    ul {
+      padding-left: 20px;
+      margin-bottom: 12px;
+    }
+    li { margin-bottom: 6px; }
+    .highlight-box {
+      background: #FF6B6B0F;
+      border-left: 4px solid #FF6B6B;
+      padding: 16px 20px;
+      border-radius: 0 8px 8px 0;
+      margin: 16px 0;
+    }
+    .highlight-box strong { color: #FF6B6B; }
+    a { color: #FF6B6B; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .divider {
+      border: none;
+      border-top: 1px solid #E8E0D8;
+      margin: 48px 0;
+    }
+    [lang] { display: none; }
+    [lang].active { display: block; }
+    footer {
+      margin-top: 60px;
+      font-size: 13px;
+      color: #8B6F5A;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <div class="logo">
+    <div class="logo-bar"></div>
+    <span class="logo-name">SortBliss</span>
+  </div>
+
+  <div class="lang-switcher">
+    <a class="lang-btn active" onclick="switchLang('en'); return false;" href="#">English</a>
+    <a class="lang-btn" onclick="switchLang('ko'); return false;" href="#">한국어</a>
+    <a class="lang-btn" onclick="switchLang('ja'); return false;" href="#">日本語</a>
+    <a class="lang-btn" onclick="switchLang('zh'); return false;" href="#">中文</a>
+    <a class="lang-btn" onclick="switchLang('fr'); return false;" href="#">Français</a>
+    <a class="lang-btn" onclick="switchLang('es'); return false;" href="#">Español</a>
+  </div>
+
+  <!-- ─── ENGLISH ─── -->
+  <div lang="en" class="active">
+    <h1>Privacy Policy</h1>
+    <p class="meta">SortBliss · Version 1.0 · Effective: March 2026</p>
+
+    <div class="highlight-box">
+      <strong>Short version:</strong> SortBliss does not collect, store, or share any personal information. All game data stays on your device.
+    </div>
+
+    <div class="section">
+      <h2>1. Information We Do NOT Collect</h2>
+      <p>SortBliss does not collect:</p>
+      <ul>
+        <li>Your name, email address, or any account information</li>
+        <li>Device identifiers or advertising IDs</li>
+        <li>Location data</li>
+        <li>Usage analytics or crash reports sent to us</li>
+        <li>Payment information (the app is free)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>2. Data Stored Locally on Your Device</h2>
+      <p>SortBliss saves the following data <strong>only on your device</strong> using local storage (MMKV). This data never leaves your device.</p>
+      <ul>
+        <li>Game progress (current level, completed levels)</li>
+        <li>App settings (sound, haptics, language, color blind mode)</li>
+      </ul>
+      <p>You can delete all this data by uninstalling the app.</p>
+    </div>
+
+    <div class="section">
+      <h2>3. Daily Challenge Data</h2>
+      <p>The Daily Challenge feature downloads today's puzzle from our server. This request is anonymous — no personal information is sent to our server. We only serve a puzzle file; we do not log IP addresses or any identifying information.</p>
+    </div>
+
+    <div class="section">
+      <h2>4. Third-Party Services</h2>
+      <p>SortBliss does not use:</p>
+      <ul>
+        <li>Advertising networks</li>
+        <li>Analytics SDKs (e.g., Firebase, Amplitude)</li>
+        <li>Social login or social SDKs</li>
+        <li>In-app purchase systems</li>
+      </ul>
+      <p>The app is built with Expo. Expo may collect limited, anonymous, aggregated telemetry data about SDK usage. See <a href="https://expo.dev/privacy" target="_blank">Expo's Privacy Policy</a> for details.</p>
+    </div>
+
+    <div class="section">
+      <h2>5. Children's Privacy</h2>
+      <p>SortBliss is rated 4+ and is suitable for all ages. Because we do not collect any personal information, there are no special concerns regarding children's data.</p>
+    </div>
+
+    <div class="section">
+      <h2>6. GDPR (European Users)</h2>
+      <p>Because we do not collect any personal data, there is no data to access, correct, or delete. If you have questions, contact us at the address below.</p>
+    </div>
+
+    <div class="section">
+      <h2>7. CCPA (California Users)</h2>
+      <p>We do not sell personal information. We do not collect personal information. California residents have no additional obligations under the CCPA with respect to SortBliss.</p>
+    </div>
+
+    <div class="section">
+      <h2>8. Changes to This Policy</h2>
+      <p>If we ever change how we handle data, we will update this page and change the effective date. Significant changes will be noted in the App Store release notes.</p>
+    </div>
+
+    <div class="section">
+      <h2>9. Contact</h2>
+      <p>Questions about this privacy policy? Contact us:<br>
+      📧 <a href="mailto:privacy@sortbliss.app">privacy@sortbliss.app</a></p>
+    </div>
+  </div>
+
+  <!-- ─── KOREAN ─── -->
+  <div lang="ko">
+    <h1>개인정보처리방침</h1>
+    <p class="meta">SortBliss · 버전 1.0 · 시행일: 2026년 3월</p>
+
+    <div class="highlight-box">
+      <strong>요약:</strong> SortBliss는 개인정보를 수집·저장·공유하지 않습니다. 모든 게임 데이터는 기기 내에만 저장됩니다.
+    </div>
+
+    <div class="section">
+      <h2>1. 수집하지 않는 정보</h2>
+      <p>SortBliss는 다음 정보를 수집하지 않습니다:</p>
+      <ul>
+        <li>이름, 이메일, 계정 정보</li>
+        <li>기기 식별자 또는 광고 ID</li>
+        <li>위치 정보</li>
+        <li>사용 분석 데이터 또는 오류 보고서</li>
+        <li>결제 정보 (앱은 무료입니다)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>2. 기기에 로컬 저장되는 데이터</h2>
+      <p>SortBliss는 다음 데이터를 <strong>기기 내부 로컬 저장소(MMKV)에만</strong> 저장합니다. 이 데이터는 기기 외부로 전송되지 않습니다.</p>
+      <ul>
+        <li>게임 진행 상태 (현재 레벨, 완료한 레벨)</li>
+        <li>앱 설정 (사운드, 햅틱, 언어, 색각 이상 모드)</li>
+      </ul>
+      <p>앱을 삭제하면 모든 데이터가 함께 삭제됩니다.</p>
+    </div>
+
+    <div class="section">
+      <h2>3. 오늘의 챌린지 데이터</h2>
+      <p>오늘의 챌린지 기능은 당일 퍼즐을 서버에서 다운로드합니다. 이 요청은 익명으로 이루어지며 어떠한 개인정보도 서버로 전송되지 않습니다. 서버는 퍼즐 파일만 제공하며, IP 주소 또는 식별 정보를 로깅하지 않습니다.</p>
+    </div>
+
+    <div class="section">
+      <h2>4. 제3자 서비스</h2>
+      <p>SortBliss는 다음을 사용하지 않습니다:</p>
+      <ul>
+        <li>광고 네트워크</li>
+        <li>분석 SDK (예: Firebase, Amplitude)</li>
+        <li>소셜 로그인 또는 소셜 SDK</li>
+        <li>인앱 결제 시스템</li>
+      </ul>
+      <p>앱은 Expo로 개발되었습니다. Expo는 SDK 사용에 관한 제한적이고 익명의 집계 텔레메트리 데이터를 수집할 수 있습니다. 자세한 내용은 <a href="https://expo.dev/privacy" target="_blank">Expo 개인정보처리방침</a>을 참조하세요.</p>
+    </div>
+
+    <div class="section">
+      <h2>5. 아동 개인정보 보호</h2>
+      <p>SortBliss는 4세 이상 전 연령이 이용 가능한 앱입니다. 개인정보를 수집하지 않으므로 아동 데이터와 관련한 별도의 우려 사항이 없습니다.</p>
+    </div>
+
+    <div class="section">
+      <h2>6. GDPR (유럽 사용자)</h2>
+      <p>개인정보를 수집하지 않으므로 열람·수정·삭제할 데이터가 없습니다. 문의 사항은 아래 이메일로 연락하세요.</p>
+    </div>
+
+    <div class="section">
+      <h2>7. 방침 변경</h2>
+      <p>데이터 처리 방식이 변경되는 경우 이 페이지를 업데이트하고 시행일을 변경합니다. 중요한 변경 사항은 App Store 업데이트 노트에도 기재합니다.</p>
+    </div>
+
+    <div class="section">
+      <h2>8. 문의</h2>
+      <p>개인정보처리방침에 대한 문의:<br>
+      📧 <a href="mailto:privacy@sortbliss.app">privacy@sortbliss.app</a></p>
+    </div>
+  </div>
+
+  <!-- ─── JAPANESE ─── -->
+  <div lang="ja">
+    <h1>プライバシーポリシー</h1>
+    <p class="meta">SortBliss · バージョン 1.0 · 施行日：2026年3月</p>
+
+    <div class="highlight-box">
+      <strong>概要：</strong>SortBlissは個人情報を収集・保存・共有しません。すべてのゲームデータはお使いのデバイスにのみ保存されます。
+    </div>
+
+    <div class="section">
+      <h2>1. 収集しない情報</h2>
+      <ul>
+        <li>氏名、メールアドレス、アカウント情報</li>
+        <li>デバイス識別子または広告ID</li>
+        <li>位置情報</li>
+        <li>利用状況分析データまたはクラッシュレポート</li>
+        <li>支払い情報（アプリは無料です）</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>2. デバイスにローカル保存されるデータ</h2>
+      <p>SortBlissは以下のデータを<strong>お使いのデバイス内にのみ</strong>保存します。外部へは送信されません。</p>
+      <ul>
+        <li>ゲームの進行状況（現在のレベル、クリア済みレベル）</li>
+        <li>アプリ設定（サウンド、触覚、言語、色覚補助モード）</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>3. 第三者サービス</h2>
+      <p>SortBlissは広告ネットワーク、分析SDK、ソーシャルログイン、アプリ内課金を使用していません。</p>
+    </div>
+
+    <div class="section">
+      <h2>4. お問い合わせ</h2>
+      <p>📧 <a href="mailto:privacy@sortbliss.app">privacy@sortbliss.app</a></p>
+    </div>
+  </div>
+
+  <!-- ─── CHINESE ─── -->
+  <div lang="zh">
+    <h1>隐私政策</h1>
+    <p class="meta">SortBliss · 版本 1.0 · 生效日期：2026年3月</p>
+
+    <div class="highlight-box">
+      <strong>概述：</strong>SortBliss不收集、存储或共享任何个人信息。所有游戏数据仅保存在您的设备上。
+    </div>
+
+    <div class="section">
+      <h2>1. 我们不收集的信息</h2>
+      <ul>
+        <li>姓名、电子邮件地址或账户信息</li>
+        <li>设备标识符或广告ID</li>
+        <li>位置数据</li>
+        <li>使用分析数据或崩溃报告</li>
+        <li>支付信息（应用程序免费）</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>2. 本地存储的数据</h2>
+      <p>SortBliss仅将以下数据存储在<strong>您的设备本地</strong>，不会传输到外部。</p>
+      <ul>
+        <li>游戏进度（当前关卡、已完成关卡）</li>
+        <li>应用设置（声音、触觉、语言、色盲模式）</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>3. 第三方服务</h2>
+      <p>SortBliss不使用广告网络、分析SDK、社交登录或应用内购买系统。</p>
+    </div>
+
+    <div class="section">
+      <h2>4. 联系我们</h2>
+      <p>📧 <a href="mailto:privacy@sortbliss.app">privacy@sortbliss.app</a></p>
+    </div>
+  </div>
+
+  <!-- ─── FRENCH ─── -->
+  <div lang="fr">
+    <h1>Politique de confidentialité</h1>
+    <p class="meta">SortBliss · Version 1.0 · En vigueur : mars 2026</p>
+
+    <div class="highlight-box">
+      <strong>Résumé :</strong> SortBliss ne collecte, ne stocke ni ne partage aucune information personnelle. Toutes les données de jeu restent sur votre appareil.
+    </div>
+
+    <div class="section">
+      <h2>1. Informations que nous ne collectons pas</h2>
+      <ul>
+        <li>Nom, adresse e-mail ou informations de compte</li>
+        <li>Identifiants d'appareil ou ID publicitaires</li>
+        <li>Données de localisation</li>
+        <li>Données d'analyse ou rapports de plantage</li>
+        <li>Informations de paiement (l'application est gratuite)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>2. Données stockées localement</h2>
+      <p>SortBliss enregistre les données suivantes <strong>uniquement sur votre appareil</strong>. Elles ne quittent jamais votre appareil.</p>
+      <ul>
+        <li>Progression dans le jeu (niveau actuel, niveaux terminés)</li>
+        <li>Paramètres de l'application (son, haptique, langue, mode daltonien)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>3. Services tiers</h2>
+      <p>SortBliss n'utilise ni réseaux publicitaires, ni SDK analytiques, ni connexion sociale, ni achats intégrés.</p>
+    </div>
+
+    <div class="section">
+      <h2>4. Contact</h2>
+      <p>📧 <a href="mailto:privacy@sortbliss.app">privacy@sortbliss.app</a></p>
+    </div>
+  </div>
+
+  <!-- ─── SPANISH ─── -->
+  <div lang="es">
+    <h1>Política de privacidad</h1>
+    <p class="meta">SortBliss · Versión 1.0 · En vigor: marzo 2026</p>
+
+    <div class="highlight-box">
+      <strong>Resumen:</strong> SortBliss no recopila, almacena ni comparte ninguna información personal. Todos los datos del juego permanecen en tu dispositivo.
+    </div>
+
+    <div class="section">
+      <h2>1. Información que NO recopilamos</h2>
+      <ul>
+        <li>Nombre, correo electrónico o información de cuenta</li>
+        <li>Identificadores de dispositivo o IDs publicitarios</li>
+        <li>Datos de ubicación</li>
+        <li>Datos de análisis o informes de fallos</li>
+        <li>Información de pago (la aplicación es gratuita)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>2. Datos almacenados localmente</h2>
+      <p>SortBliss guarda los siguientes datos <strong>únicamente en tu dispositivo</strong>. Estos datos nunca salen de tu dispositivo.</p>
+      <ul>
+        <li>Progreso del juego (nivel actual, niveles completados)</li>
+        <li>Configuración de la app (sonido, háptica, idioma, modo daltónico)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>3. Servicios de terceros</h2>
+      <p>SortBliss no utiliza redes publicitarias, SDK de análisis, inicio de sesión social ni sistemas de compra en la aplicación.</p>
+    </div>
+
+    <div class="section">
+      <h2>4. Contacto</h2>
+      <p>📧 <a href="mailto:privacy@sortbliss.app">privacy@sortbliss.app</a></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2026 SortBliss · <a href="./privacy-policy.html">Privacy Policy</a> · <a href="./support.html">Support</a></p>
+  </footer>
+</div>
+
+<script>
+  function switchLang(lang) {
+    document.querySelectorAll('[lang]').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
+    const target = document.querySelector('[lang="' + lang + '"]');
+    if (target) target.classList.add('active');
+    document.querySelector('.lang-switcher a[onclick*="\'' + lang + '\'"]')?.classList.add('active');
+    document.documentElement.lang = lang;
+  }
+</script>
+</body>
+</html>
